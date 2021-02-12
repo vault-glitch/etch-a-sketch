@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="selector">
+        <label for="size">Box width:</label>
+        <input type="number" name="size" id="size" value="4" min="4" max="64" step="1">
+        <button id="generate">Create grid</button>
+        <button id="reset">Reset</button>
+    </div>
+    <div class="container"></div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
